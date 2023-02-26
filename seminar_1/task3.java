@@ -26,8 +26,10 @@ public class task3 {
             System.out.println("Вы допустили ошибку при вводе операции. Попробуйте еще раз.");
             Scanner1.next();
             operation = getOperation();
+            Scanner1.close();
         }
         return operation;
+        
     }
 
     public static int Calc(int num1, int num2, char operation){
